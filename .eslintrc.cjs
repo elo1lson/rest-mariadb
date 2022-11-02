@@ -14,5 +14,7 @@ module.exports = {
     'import/extensions': ['js', 'ignorePackages'],
     'class-methods-use-this': 'off',
     'no-console': 'off',
+    'no-param-reassign': 'off',
+
   },
 };

@@ -1,5 +1,4 @@
-import Sequelize, { Model } from "sequelize";
-
+import Sequelize, { Model } from 'sequelize';
 export default class Aluno extends Model {
   static init(sequelize) {
     super.init({
@@ -8,10 +7,10 @@ export default class Aluno extends Model {
       email: Sequelize.STRING,
       idade: Sequelize.INTEGER,
       peso: Sequelize.FLOAT,
-      altura: Sequelize.FLOAT
+      altura: Sequelize.FLOAT,
     }, {
-      sequelize
-    })
-    return this
+      sequelize,
+    });
+    return this;
   }
-}
+};

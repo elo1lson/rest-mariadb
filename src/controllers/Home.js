@@ -1,4 +1,4 @@
-import Aluno from "../models/Aluno";
+import Aluno from '../models/Aluno';
 
 class Home {
   async index(req, res) {
@@ -10,7 +10,8 @@ class Home {
       peso: 280,
       altura: 2.4
     })
-    res.json(newAluno)
-  }
+    res.json(newAluno);
+  };
 }
+
 export default new Home();
