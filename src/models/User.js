@@ -50,4 +50,7 @@ export default class User extends Model {
 
     return this;
   }
+  async passwordIsValid(password){
+    return await bcryptjs.compare(password, this.password_hash);
+  }
 };
