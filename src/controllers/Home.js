@@ -8,10 +8,11 @@ class Home {
       email: 'eloilson@email.com',
       idade: 18,
       peso: 280,
-      altura: 2.4
-    })
+      altura: 2.4,
+    });
+
     res.json(newAluno);
-  };
+  }
 }
 
 export default new Home();

@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'import/extensions': ['js', 'ignorePackages'],
+    'imports/extensions': 0,
     'class-methods-use-this': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
